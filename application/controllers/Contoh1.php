@@ -7,6 +7,6 @@ class Contoh1 extends CI_Controller
         echo "Nama saya Raihan Pratama
  Saya tinggal di daerah BSD
  olah raga yang saya sukai adalah
- Bulutangkis";
+ Bulutangkis dan Bersepeda";
     }
 }
