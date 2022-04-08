@@ -5,6 +5,7 @@
 </head>
 
 <body>
+    <?php echo validation_errors(); ?>
     <center>
         <form action="http://localhost/pustaka-booking/matakuliah/cetak" method="post">
             <table>
