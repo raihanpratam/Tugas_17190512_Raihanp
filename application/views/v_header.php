@@ -4,7 +4,7 @@
 <head>
     <meta charset=”utf-8”>
     <title>Web Prog II | Merancang Template sederhana dengan codeigniter</title>
-    <link rel='stylesheet' type='text/css' href="<?php echo base_url() ?>/assets/css/stylebuku.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>/assets/css/stylebuku.css">
 </head>
 
 <body>
@@ -16,8 +16,10 @@
             </hgroup>
             <nav>
                 <ul>
-                    <li><a href='http://localhost/pustaka-boooking/web'>Home</a></li>
-                    <li><a href='http://localhost/pustaka-boooking/web/about'>About</a></li>
+                    <li><a href='http://localhost/pustaka-booking/web'>Home</a></li>
+                    <li><a href='http://localhost/pustaka-booking/web/about'>About</a></li>
+                    <li><a href='http://localhost/pustaka-booking/web/tampilUser'>User</a></li>
+                    <li><a href='http://localhost/pustaka-booking/web/login'>Login</a></li>
                 </ul>
             </nav>
             <div class='clear'></div>
