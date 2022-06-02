@@ -28,7 +28,7 @@ class Buku extends CI_Controller
             $this->load->view('templates/footer');
         } else {
             $data = [
-                'kategori' => $this->input->post('kategori', TRUE)
+                'nama_kategori' => $this->input->post('kategori')
             ];
             $this->ModelBuku->simpanKategori($data);
             redirect('buku/kategori');
@@ -36,7 +36,7 @@ class Buku extends CI_Controller
     }
     public function hapusKategori()
     {
-        $where = ['id' => $this->uri->segment(3)];
+        $where = ['id_kategori' => $this->uri->segment(3)];
         $this->ModelBuku->hapusKategori($where);
         redirect('buku/kategori');
     }
